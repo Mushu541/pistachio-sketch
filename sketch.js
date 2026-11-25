@@ -11,7 +11,7 @@ let mouseMoving = false;
 async function setup() {
   img_bg = await loadImage("tree.JPG");
   img = await loadImage("tree_cutout_compressed.png");
-  createCanvas(1152/1.5, 768/1.5);
+  createCanvas(1152/2, 768/2);
   img_bg.resize(width, 0);
   img.resize(width, 0);
   img.loadPixels();
